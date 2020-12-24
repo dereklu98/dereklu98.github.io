@@ -39,6 +39,8 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+
 }
 
 *,
@@ -2651,6 +2653,17 @@ fieldset:disabled a.btn {
   background-color: #343a40;
   border-color: #343a40;
 }
+
+.btn-github {
+  color: #fff;
+  background-color: #fed136;
+}
+
+.btn-linkedin {
+  color: #fff;
+  background-color: #fed136;
+}
+
 .btn-dark:hover {
   color: #fff;
   background-color: #23272b;
@@ -6133,7 +6146,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #c5c5c5 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -6143,7 +6156,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #838383 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -10036,8 +10049,8 @@ img::-moz-selection {
 }
 
 .btn-social {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 4rem;
+  width: 4rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -10189,7 +10202,7 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #fff;
+  background-color: #c5c5c5;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
@@ -10255,7 +10268,7 @@ header.masthead .masthead-heading {
   width: 2px;
   margin-left: -1.5px;
   content: "";
-  background-color: #e9ecef;
+  background-color: #000000;
 }
 .timeline > li {
   position: relative;
@@ -10297,9 +10310,9 @@ header.masthead .masthead-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid #838383;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #838383;
 }
 .timeline > li .timeline-image h4 {
   font-size: 10px;
